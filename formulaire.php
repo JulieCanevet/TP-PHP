@@ -15,5 +15,6 @@
     <textarea name="message" rows="8" cols="23" placeholder="votre message"></textarea>
     <input type="submit" value="Valider" />
 </form>
+<a href="index.php">Retour à l'accueil</a>
 </body>
 </html>

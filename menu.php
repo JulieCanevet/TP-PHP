@@ -11,7 +11,7 @@
 
 		<nav id="menu">        
 		    <div class="element_menu">
-		        <h3>Bienvenu sur ce site très bizarre</h3>
+		        <h3>Ce site ne sert absolument à rien</h3>
 		        <ul>
 		            <li><a href="bonjour.php?nom=Dupont&amp;prenom=Jean&amp;repeter=12">Bonjour</a></li>
 		            <li><a href="form.php">Mot de passe</a></li>
