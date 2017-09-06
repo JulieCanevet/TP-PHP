@@ -1,5 +1,14 @@
-<h3>TEST</h3>
-<p>Bonjour<br />
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+	<body>
+    <p>Bonjour<br />
 <?php 
 	
 	if(isset($_GET['nom']) && isset($_GET['prenom']) && isset($_GET['repeter'])) {
@@ -23,3 +32,5 @@
 	}
 
 ?> </p>
+</body>
+</html>

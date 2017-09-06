@@ -33,11 +33,3 @@
 		?>
 	</body>
 </html>
-
-<style>
-body {
-	text-align: center;
-	padding-top: 3em;
-	background-color: lightgrey;
-}
-</style>

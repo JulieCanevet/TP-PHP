@@ -1,3 +1,3 @@
 <header id="header">        
-        <h1>Titre du site</h1>
+        <h1>Bienvenu sur ce site très bizarre</h1>
 </header>

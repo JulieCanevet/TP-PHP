@@ -95,12 +95,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    text-align: center;
+    padding-top: 3em;
+}
+#message {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
 
-
-
-
-
-
+#message input {
+    margin: 1em;
+}
 
 
 
