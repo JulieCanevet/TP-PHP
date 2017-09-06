@@ -8,7 +8,7 @@
     <body>
 		
 		<?php
-
+		// si le mot de passe n'a pas de valeur
 			if(!isset($_POST['mot_de_passe'])){
 				?>
 
@@ -19,11 +19,13 @@
 				</form>	
 			<?php
 			}
+			// si le mot de passe est correct
 			elseif(isset($_POST['mot_de_passe']) && $_POST['mot_de_passe'] === 'kangourou'){
 				?>
 				<h2> BRAVO </h2>
 				<?php
 			}
+			// si le mot de passe est faux
 			else {	
 				?>
 				<h3>Mauvais mot de passe</h3>

@@ -10,10 +10,10 @@
 	<body>
     <p>Bonjour<br />
 <?php 
-	
+	// verifier si les variables ont des valeurs
 	if(isset($_GET['nom']) && isset($_GET['prenom']) && isset($_GET['repeter'])) {
 
-			$_GET['repeter'] = (int) $_GET['repeter'];
+			$_GET['repeter'] = (int) $_GET['repeter']; //transformation de la valeur de 'repeter' en int
 
 		if (1<=$_GET['repeter'] && $_GET['repeter']<=100) {
 
